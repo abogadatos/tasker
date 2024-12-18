@@ -26,6 +26,9 @@ $ npm install
 ## 🏃 Running the API
 
 ```bash
+# Work flow
+$ Remember to set up the .development.env by setting your data
+
 # development
 $ npm run start
 
