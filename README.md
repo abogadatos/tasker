@@ -2,18 +2,18 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+## 🚀 Description
 
-🚀 Description
 This Task Management API was developed by @abogadatos as part of a technical interview project. The API allows users to manage tasks efficiently while demonstrating proficiency in NestJS, TypeScript, and PostgreSQL.
 
-Key Features
-JWT Authentication: Secure authentication with JSON Web Tokens.
-Role-Based Access Control (RBAC): Fine-grained access to endpoints based on user roles (User, Trainer, Admin, SuperAdmin).
-Data Encryption: Passwords are securely hashed with bcrypt.
-Task Management: Create, update, delete, and retrieve tasks.
-Simple & Scalable: Built using NestJS for modern, scalable server-side applications.
-Database-Driven: Uses PostgreSQL as the database with TypeORM for managing entities.
+### Key Features
+
+- JWT Authentication: Secure authentication with JSON Web Tokens.
+- Role-Based Access Control (RBAC): Fine-grained access to endpoints based on user roles (User, Trainer, Admin, SuperAdmin).
+- Data Encryption: Passwords are securely hashed with bcrypt.
+- Task Management: Create, update, delete, and retrieve tasks.
+- Simple & Scalable: Built using NestJS for modern, scalable server-side applications.
+- Database-Driven: Uses PostgreSQL as the database with TypeORM for managing entities.
 
 ## 🛠️ Installation
 
@@ -71,10 +71,10 @@ $ npm run test:cov
 
 The API uses role-based access to control permissions:
 
-User: Basic access to their own tasks.
-Associate: User with memberships can manage tasks and premium features.
-Admin: Full access to manage all users and tasks.
-SuperAdmin: All permissions, including system-level operations.
+- User: Basic access to their own tasks.
+- Associate: User with memberships can manage tasks and premium features.
+- Admin: Full access to manage all users and tasks.
+- SuperAdmin: All permissions, including system-level operations.
 
 ## 📦 Technology Stack
 
